@@ -12,6 +12,11 @@
 		710FF98F1D4AC0EA00F35346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710FF98D1D4AC0EA00F35346 /* Main.storyboard */; };
 		710FF9911D4AC0EA00F35346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710FF9901D4AC0EA00F35346 /* Assets.xcassets */; };
 		710FF9941D4AC0EA00F35346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710FF9921D4AC0EA00F35346 /* LaunchScreen.storyboard */; };
+		710FF99C1D4AC1BB00F35346 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FF99B1D4AC1BB00F35346 /* Character.swift */; };
+		710FF99E1D4AC4C200F35346 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FF99D1D4AC4C200F35346 /* Player.swift */; };
+		710FF9A01D4ACA0600F35346 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FF99F1D4ACA0600F35346 /* Enemy.swift */; };
+		710FF9A21D4ACC4100F35346 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FF9A11D4ACC4100F35346 /* Zombie.swift */; };
+		710FF9A41D4ADDD500F35346 /* Warlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FF9A31D4ADDD500F35346 /* Warlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		710FF9901D4AC0EA00F35346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710FF9931D4AC0EA00F35346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710FF9951D4AC0EA00F35346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710FF99B1D4AC1BB00F35346 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		710FF99D1D4AC4C200F35346 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		710FF99F1D4ACA0600F35346 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		710FF9A11D4ACC4100F35346 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		710FF9A31D4ADDD500F35346 /* Warlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				710FF9891D4AC0EA00F35346 /* AppDelegate.swift */,
 				710FF98B1D4AC0EA00F35346 /* ViewController.swift */,
+				710FF99B1D4AC1BB00F35346 /* Character.swift */,
+				710FF99D1D4AC4C200F35346 /* Player.swift */,
+				710FF99F1D4ACA0600F35346 /* Enemy.swift */,
+				710FF9A11D4ACC4100F35346 /* Zombie.swift */,
+				710FF9A31D4ADDD500F35346 /* Warlock.swift */,
 				710FF98D1D4AC0EA00F35346 /* Main.storyboard */,
 				710FF9901D4AC0EA00F35346 /* Assets.xcassets */,
 				710FF9921D4AC0EA00F35346 /* LaunchScreen.storyboard */,
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FF99E1D4AC4C200F35346 /* Player.swift in Sources */,
+				710FF9A41D4ADDD500F35346 /* Warlock.swift in Sources */,
+				710FF9A01D4ACA0600F35346 /* Enemy.swift in Sources */,
+				710FF99C1D4AC1BB00F35346 /* Character.swift in Sources */,
+				710FF9A21D4ACC4100F35346 /* Zombie.swift in Sources */,
 				710FF98C1D4AC0EA00F35346 /* ViewController.swift in Sources */,
 				710FF98A1D4AC0EA00F35346 /* AppDelegate.swift in Sources */,
 			);
